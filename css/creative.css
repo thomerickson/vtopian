@@ -94,7 +94,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #212529;
   font-family: 'Amatic SC', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -118,7 +118,7 @@ img::-moz-selection {
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: #eee;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
@@ -139,8 +139,8 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    border-color: transparent;
-    background-color: transparent;
+    /* border-color: transparent;
+    background-color: transparent; */
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -180,7 +180,7 @@ img::-moz-selection {
 }
 
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 4rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/slate-dark.jpg");
   background-position: center center;
@@ -213,7 +213,7 @@ header.masthead p {
   header.masthead {
     height: 100vh;
     min-height: 650px;
-    padding-top: 0;
+    padding-top: 4rem;
     padding-bottom: 0;
   }
   header.masthead h1 {

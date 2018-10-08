@@ -39,7 +39,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <img src="img/v-logo.png" width="40px" height="40px" class="mr-3">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Vtopian Artisan Cheeses</a>
@@ -124,31 +124,26 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 text-center mx-auto">
-            <h2 class="section-heading">A little about us...</h2>
+            <h1 class="section-heading">A little about us...</h1>
             <hr class="my-4">
             <p>
               Vtopian Artisan Cheeses is an Oregon based maker of handcrafted cultured cashew cheeses.
             </p>
             <hr>
-            <h2 class="section-heading">Check out what we're up to on Instagram!</h2>
-            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://lightwidget.com/widgets/af16dc82cc8e5c0da1ac7f1efc33612c.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden; margin-bottom: 8rem;"></iframe>
+            <h1 class="section-heading">Check out what we're up to on Instagram!</h1>
+            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/af16dc82cc8e5c0da1ac7f1efc33612c.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden; margin-bottom: 8rem;"></iframe>
 
           </div>
         </div>
       </div>
     
-    <section class="bg-dark text-white" id="locations">
-      <div class="bh-sl-container container col-lg-8 mx-auto">
-        <div id="page-header">
-          <h1 class="bh-sl-title">Using Chipotle as an Example</h1>
-          <p>I used locations around Minneapolis and the southwest suburbs. So, for example, Edina, Plymouth, Eden Prarie, etc. would be good for testing the functionality.
-          You can use just the city as the address - ex: Edina, MN.</p>
-        </div>
-  
-        <div class="bh-sl-form-container">
+    <section class="bg-dark" id="locations">
+      <div class="bh-sl-container container col-lg-8 mx-auto text-center bg-dark">
+        <h1 class="section-heading text-white">Where to find us:</h1>
+        <div class="bh-sl-form-container col-lg-12">
           <form id="bh-sl-user-location" method="post" action="#">
               <div class="form-input">
-                <label for="bh-sl-address">Enter Address or Zip Code:</label>
+                <label for="bh-sl-address">Enter City or Zip Code:</label>
                 <input type="text" id="bh-sl-address" name="bh-sl-address" />
               </div>
   
@@ -157,19 +152,24 @@
         </div>
   
         <div id="bh-sl-map-container" class="bh-sl-map-container">
-          <div id="bh-sl-map" class="bh-sl-map"></div>
-          <div class="bh-sl-loc-list">
-            <ul class="list"></ul>
+          <div class="container-fluid">
+            <div id="map-results-container" class="row">
+              <div id="bh-sl-map" class="bh-sl-map col-md-9"></div>
+              <div class="bh-sl-loc-list col-md-3">
+                <ul class="list list-unstyled"></ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    <div style="clear: both; height: 0; padding: 0; margin: 0;"></div>
     </section>
 
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <h1 class="section-heading">Let's Get In Touch!</h1>
             <hr class="my-4">
             <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
           </div>
