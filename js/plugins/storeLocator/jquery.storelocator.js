@@ -27,7 +27,7 @@
 		'autoGeocode'                : false,
 		'bounceMarker'               : true,
 		'catMarkers'                 : null,
-		'dataLocation'               : 'data/locations.json',
+		'dataLocation'               : 'locs.js',
 		'dataRaw'                    : null,
 		'dataType'                   : 'json',
 		'debug'                      : false,
